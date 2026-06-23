@@ -47,6 +47,8 @@ Form: Search form
 Inputs:
 - <input type="search">
 - <input type="hidden">
+##Linkedln Article
+https://www.linkedin.com/pulse/semantic-html-accessibilityimproving-my-portfolio-website-jonny-80elf
 
 ### 3. screenshot
 ![alt text](image-1.png)
