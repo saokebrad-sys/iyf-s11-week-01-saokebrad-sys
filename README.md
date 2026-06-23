@@ -1,3 +1,36 @@
+# Week 1: HTML & CSS Practice Project
+
+## 👤 Author
+- *Name:* Bradley Jonny
+- *GitHub:* [@saokebrad-sys](https://github.com/saokebrad-sys)
+- *Date:* June 23, 2026
+
+---
+
+## 📌 Project Description
+This project is a beginner HTML and CSS practice assignment completed during my web development learning journey. It includes simple webpages such as navigation menus, forms, and structured layouts to improve my understanding of how websites are built and styled.
+
+---
+
+## 🛠️ Technologies Used
+- HTML5
+- CSS3
+
+---
+
+## ✨ Features
+- Clean navigation menu using HTML links
+- Basic contact form layout
+- Use of semantic HTML elements
+- Simple and structured page design
+- Basic styling using CSS (colors, spacing, alignment)
+
+---
+
+## 🚀 How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/saokebrad-sys/week1-html-css-project.git
 # DevTools Exploration
 
 ## Website 1: https://example.com
