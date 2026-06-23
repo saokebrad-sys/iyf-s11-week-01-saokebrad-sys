@@ -1,0 +1,56 @@
+contact.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Form</title>
+</head>
+<body>
+
+    <h1>Get in Touch</h1>
+
+    <form>
+
+        <fieldset>
+            <legend>Your Details</legend>
+
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" placeholder="Enter your name" required>
+            <br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <label for="phone">Phone:</label><br>
+            <input type="tel" id="phone" placeholder="Optional">
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Your Message</legend>
+
+            <label for="subject">Subject:</label><br>
+            <select id="subject">
+                <option>Question</option>
+                <option>Feedback</option>
+                <option>Support</option>
+            </select>
+            <br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" placeholder="Write at least 50 characters" minlength="50" required></textarea>
+            <br><br>
+
+            <input type="checkbox" id="news">
+            <label for="news">Subscribe to newsletter</label>
+        </fieldset>
+
+        <br>
+
+        <button type="submit">Send Message</button>
+
+    </form>
+
+</body>
+</html>
