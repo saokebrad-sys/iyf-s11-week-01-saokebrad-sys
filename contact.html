@@ -1,19 +1,36 @@
-contact.html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Contact Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
 </head>
 <body>
 
-    <h1>Get in Touch</h1>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="projects.html">Projects</a> |
+        <strong>Contact</strong>
+    </nav>
+
+    <h1>Contact Me</h1>
+
+    <p>Location: Nairobi, Kenya</p>
+    <p>Timezone: East Africa Time (EAT, UTC+3)</p>
+
+    <h2>Social Media</h2>
+    <ul>
+        <li><a href="https://github.com/saokebrad-sys">GitHub</a></li>
+        <li><a href="https://linkedin.com">LinkedIn</a></li>
+        <li><a href="https://instagram.com">Instagram</a></li>
+    </ul>
 
     <form>
-
         <fieldset>
-            <legend>Your Details</legend>
+            <legend>Personal Information</legend>
 
-            <label for="name">Full Name:</label><br>
+            <label for="name">Name:</label><br>
             <input type="text" id="name" placeholder="Enter your name" required>
             <br><br>
 
@@ -36,10 +53,12 @@ contact.html
                 <option>Feedback</option>
                 <option>Support</option>
             </select>
+
             <br><br>
 
             <label for="message">Message:</label><br>
-            <textarea id="message" placeholder="Write at least 50 characters" minlength="50" required></textarea>
+            <textarea id="message" placeholder="Write your message here" minlength="50" required></textarea>
+
             <br><br>
 
             <input type="checkbox" id="news">
@@ -49,7 +68,6 @@ contact.html
         <br>
 
         <button type="submit">Send Message</button>
-
     </form>
 
 </body>
